@@ -72,3 +72,8 @@ for project in $(gcloud asset search-all-resources --scope organizations/$ORG_ID
         echo "----------------------------------------------"
     done
 ```
+
+gcloud projects get-ancestors  <project-id>
+
+or https://cloud.google.com/resource-manager/reference/rest/v1/projects/getAncestry
+
